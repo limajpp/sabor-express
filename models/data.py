@@ -17,7 +17,7 @@ class Data:
         return JSON_DATA
 
     @classmethod
-    def __process_data(cls):
+    def process_data(cls):
         JSON_DATA = cls.__get()
         PARSED_DATA = {}
 
